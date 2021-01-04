@@ -1,0 +1,7 @@
+apiVersion: cache.devops.io/v1alpha1
+kind: Memcached
+metadata:
+  name: memcached-sample
+spec:
+  size: 2
+  imageName: localhost:5000/memcached:1.4.36-alpine

@@ -1,0 +1,9 @@
+domain: devops.io
+layout: go.kubebuilder.io/v2
+projectName: memcached-operator
+repo: github.com/yglcode/memcached-operator
+resources:
+- group: cache
+  kind: Memcached
+  version: v1alpha1
+version: 3-alpha
